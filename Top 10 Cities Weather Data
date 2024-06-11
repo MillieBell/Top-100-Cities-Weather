@@ -1,0 +1,15 @@
+I. Project Summary 
+Local weather impacts our day to day lives, be it for travel, business or what we want to wear for the day. 
+This dataset provides temperature data for the top 100 cities world wide and offers specific information to understand the specific weather conditions in different cities on a particular day. 
+The dataset consists of seven columns, all of which provide different information that help us understand the weather conditions: City, Temperature (in Celcius), Wind speed, Latitude, Longitude, Description and Country.
+
+II. Description of Approach
+I live in the USA so I wanted to compare weather in the US as it relates to other cities and countries around the globe. Data was uploaded into MySQL and sorted based on temperature to find which countries had the highest temperatures vs the coolest temperatures, average windspeed and the top hottest cities and countries. Simple select queries were exercised in order to gather this data.
+
+III. Hypothesis
+Based on stories that I've heard throughout my life time and visuals that I've seen from movies and documentaries, I suspect the top city in the US will not be as hot as a top city in another country.
+
+IV. Summary and Results
+Based on SQL results, on April 28, 2024, the hottest city was, in fact, not located in USA. Cities in the USA did not make it into the top 10 for the hottest cities, but it also was not included in the top 10 cities with the coolest temperatures. Based on the findings regarding windspeed, cities in USA deemed to be more windy compared to cities in other countries. The hottest city is Bangkok with a temperature of 32.35 celcius, which proved my hypothesis correct that USA would not have the hottest city.  
+
+
